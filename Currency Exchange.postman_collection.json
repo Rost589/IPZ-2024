@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "b9208db1-71f9-4ee6-995b-815b0aadf299",
+		"name": "Currency Exchange",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40124750"
+	},
+	"item": [
+		{
+			"name": "1Forge",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.1forge.com/quotes?pairs=EUR/USD,GBP/JPY,AUD/USD&api_key=YOUR_API_KEY",
+					"protocol": "https",
+					"host": [
+						"api",
+						"1forge",
+						"com"
+					],
+					"path": [
+						"quotes"
+					],
+					"query": [
+						{
+							"key": "pairs",
+							"value": "EUR/USD,GBP/JPY,AUD/USD"
+						},
+						{
+							"key": "api_key",
+							"value": "YOUR_API_KEY"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Amdoren",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Currency-api",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Currency-api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.currencyfreaks.com/v2.0/supported-currencies",
+					"protocol": "https",
+					"host": [
+						"api",
+						"currencyfreaks",
+						"com"
+					],
+					"path": [
+						"v2.0",
+						"supported-currencies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Economia.Awesome",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
